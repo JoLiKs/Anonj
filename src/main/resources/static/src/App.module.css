@@ -1,0 +1,101 @@
+.main {
+background: gray;
+height: 100vh;
+position: relative;
+display: flex;
+width: 100%;
+overflowY: hidden;
+justify-content: center;
+
+}
+.container {
+
+}
+.chat {
+background: gray;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 24px;
+overflow: auto;
+width: -webkit-fill-available;
+height: 80%;
+overflow-X: hidden;
+}
+.forms {
+display: flex;
+visibility: hidden;
+position: fixed;
+bottom: 0;
+}
+.forms input {
+background: rgb(20, 50, 60);
+
+}
+.forms label {
+font-size: 20px;
+
+}
+@media (max-width:320px) {
+.forms button {
+background: green;
+}
+}
+.forms button {
+border-radius: 10px;
+font-size: 18px;
+margin-top: 10px;
+font-weight: 700;
+margin-bottom: 5px;
+width: 100%;
+background: rgb(230, 67, 75);
+}
+.formsexen {
+margin-left: 36%;
+}
+.formContainer {
+
+}
+.sendName {
+display: flex;
+justify-content: center;
+}
+.formsName {
+display: flex;
+position: fixed;
+background: rgb(12, 110, 165);
+border-radius: 55px;
+left: 40%;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.inpName {
+background: rgb(80, 110, 105);
+border-radius: 12px;
+width: 100%;
+}
+.labelName {
+margin-top: 80px;
+font-size: 30px;
+text-shadow: -1px 2px 1px rgb(100, 220, 140);
+}
+@media (max-width:980px) {
+.formContainer {
+display: flex;
+justify-content: center;
+width: 100vh;
+
+}
+.formsName {
+display: flex;
+justify-content: center;
+background: green;
+width: 50vh;
+}
+}
+@media (max-width:480px) {
+.formsName {
+
+}
+}

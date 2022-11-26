@@ -1,0 +1,17 @@
+.msgsin {
+margin-bottom: 1px;
+margin-left: -150px;
+color: rgb(35, 190, 100);
+}
+.msgsout {
+margin-bottom: 1px;
+margin-left: 150px;
+color: rgb(15, 150, 200);
+}
+.msg {
+display: flex;
+justifyContent: flex-start;
+alignItems: center;
+margin: 5px;
+padding: 5px 8px;
+}
